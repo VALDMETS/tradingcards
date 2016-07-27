@@ -10,7 +10,9 @@ const Card = React.createClass({
           <img src={this.props.item.image}/>
         </div>
         <p>{this.props.item.description}</p>
-        <span>{this.props.item.power}</span><span>/{this.props.item.defense}</span>
+        <footer>
+          <span>{this.props.item.power}</span><span>/{this.props.item.defense}</span>
+        </footer>  
       </div>
     );
   }
