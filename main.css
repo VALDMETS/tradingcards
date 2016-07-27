@@ -1,3 +1,38 @@
+body {
+  background-color: #CCC;
+  font-family: sans-serif;
+  color: #19196E;
+  margin: 0; }
 
+#navbar {
+  width: 30%;
+  height: auto;
+  float: left;
+  padding-left: 30px; }
+  #navbar a {
+    display: block;
+    padding: 10px 0; }
+
+.cardoutline {
+  background-color: #AAA;
+  margin-top: 20px;
+  display: block;
+  float: left;
+  width: 350px;
+  height: 500px;
+  border: 2px solid #19196E;
+  border-radius: 30px; }
+  .cardoutline h3 {
+    margin: 7px 0 5px 30px; }
+  .cardoutline div {
+    display: block;
+    margin: 7px auto;
+    width: 338px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden; }
+    .cardoutline div img {
+      max-width: 338px;
+      height: auto; }
 
 /*# sourceMappingURL=main.css.map */
