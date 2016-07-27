@@ -4,7 +4,7 @@ export default {
     name: 'Ultra-Dragon',
     power: '8',
     defense: '10',
-    image: '',
+    image: 'http://cdn8.staztic.com/app/a/3332/3332802/3d-dragon-4-3-s-307x512.jpg',
     description: 'No man has lived having seen the Ultra-Dragon... Those who have heard it flying above dare not speak its name.'
   }, {
     name: 'Zhudan\'s Flying Butler',
@@ -30,7 +30,11 @@ export default {
     defense: '1',
     image: '',
     description: 'No man has lived having seen the Ultra-Dragon... Those who have heard it flying above dare not speak its name.'
-  }]
+  }],
+  session: {
+    name: '',
+    password: ''
+  }
 };
 
 // export default {thing: 'wow'}

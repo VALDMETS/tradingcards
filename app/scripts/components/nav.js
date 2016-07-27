@@ -9,6 +9,7 @@ const Nav = React.createClass({
     });
     return (
       <div>
+        <a id="loginbutton" href="#login">Log In</a>
         <a href="#newcard">New Card</a>
         {listArray}
       </div>
